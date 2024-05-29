@@ -395,7 +395,7 @@ function initKnife4jFront() {
     configSupport: false,
     i18nInstance: getCurrentI18nInstance(),
     //覆盖url地址,多个服务的组合
-    url: "http://127.0.0.1/app/v3/other/info.json"
+    url: "http://192.168.192.95:7104/app/v3/other/info.json"
   }
   initSwagger(swaggerOptions);
 }
